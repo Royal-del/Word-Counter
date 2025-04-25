@@ -1,6 +1,4 @@
-# even_odd.py
-number = int(input("Enter a number: "))
-if number % 2 == 0:
-    print("Even number")
-else:
-    print("Odd number")
+# word_counter.py
+text = input("Enter a sentence: ")
+words = text.split()
+print("Number of words:", len(words))
