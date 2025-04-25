@@ -1,8 +1,6 @@
-# Word Counter
-
-This script counts the number of words in a given sentence.
-
-## How to Use
-1. Run the program.
-2. Enter a sentence.
-3. The program will display the total number of words.
+# even_odd.py
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
